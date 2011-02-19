@@ -1,0 +1,16 @@
+name: Alchemy
+main: com.lostaris.bukkit.alchemy.Alchemy
+version: 1.4
+commands:
+  alchemy:
+    description: turns one or more items into a new item
+    aliases: alc
+    usage: |
+      Incorrect usage of command /<command>.
+      Proper usage of /<command>
+       /<command> [item Id] - makes the item with given id
+       /<command> [item Id] [?] - gets items needed to make item id
+       /<command> all - shows all items that can be made
+      Examples for item id 337 (clay ball)
+       /<command> 337 - makes 4 clay balls from dirt and sand
+       /<command> 337 ? - the list of items to make clay balls
